@@ -1,10 +1,10 @@
 <?php
 /* Credenciais do banco de dados. Supondo que você esteja executando o MySQL
 servidor com configuração padrão (usuário 'root' sem senha) */
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'test');
+define('DB_SERVER', 'http://us-cdbr-east-06.cleardb.net/');
+define('DB_USERNAME', 'b08dc147783fd2');
+define('DB_PASSWORD', '8910462f');
+define('DB_NAME', 'heroku_2d7981075175191');
  
 /* Tentativa de conexão com o banco de dados MySQL */
 try{
